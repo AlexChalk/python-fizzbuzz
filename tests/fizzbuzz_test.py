@@ -12,3 +12,7 @@ def test_returns_fizz():
     value = fizzbuzz(3)
     assert value == "fizz" 
 
+def test_returns_buzz():
+    value = fizzbuzz(5)
+    assert value == "buzz" 
+
