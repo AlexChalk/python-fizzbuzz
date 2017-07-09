@@ -7,3 +7,9 @@ def fizzbuzz(n):
         return "fizz"
     else:
         return n
+
+def fizzbuzz_loop():
+    result = []
+    for num in range(1,31):
+        result.append(fizzbuzz(num))
+    return result
